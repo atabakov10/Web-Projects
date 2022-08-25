@@ -1,2 +1,2 @@
-# FastFood
+# FastFood Project
 
