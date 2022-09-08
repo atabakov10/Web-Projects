@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "MaxGain/1.0.0": {
         "dependencies": {
+          "MaxGain.Core": "1.0.0",
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "6.0.8",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.8",
           "Microsoft.AspNetCore.Identity.UI": "6.0.8",
@@ -2306,6 +2307,19 @@
           "System.Threading": "4.3.0",
           "System.Xml.ReaderWriter": "4.3.0"
         }
+      },
+      "MaxGain.Core/1.0.0": {
+        "dependencies": {
+          "MaxGain.Infrastructure": "1.0.0"
+        },
+        "runtime": {
+          "MaxGain.Core.dll": {}
+        }
+      },
+      "MaxGain.Infrastructure/1.0.0": {
+        "runtime": {
+          "MaxGain.Infrastructure.dll": {}
+        }
       }
     }
   },
@@ -3574,6 +3588,16 @@
       "sha512": "sha512-5zJ0XDxAIg8iy+t4aMnQAu0MqVbqyvfoUVl1yDV61xdo3Vth45oA2FoY4pPkxYAH5f8ixpmTqXeEIya95x0aCQ==",
       "path": "system.xml.xdocument/4.3.0",
       "hashPath": "system.xml.xdocument.4.3.0.nupkg.sha512"
+    },
+    "MaxGain.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MaxGain.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

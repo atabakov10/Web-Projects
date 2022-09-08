@@ -1,0 +1,12 @@
+C:\Users\HP\source\repos\Web-Projects\MaxGain\MaxGain.Infrastructure\bin\Debug\net6.0\MaxGain.Infrastructure.deps.json
+C:\Users\HP\source\repos\Web-Projects\MaxGain\MaxGain.Infrastructure\bin\Debug\net6.0\MaxGain.Infrastructure.dll
+C:\Users\HP\source\repos\Web-Projects\MaxGain\MaxGain.Infrastructure\bin\Debug\net6.0\MaxGain.Infrastructure.pdb
+C:\Users\HP\source\repos\Web-Projects\MaxGain\MaxGain.Infrastructure\obj\Debug\net6.0\MaxGain.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\Web-Projects\MaxGain\MaxGain.Infrastructure\obj\Debug\net6.0\MaxGain.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\source\repos\Web-Projects\MaxGain\MaxGain.Infrastructure\obj\Debug\net6.0\MaxGain.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\HP\source\repos\Web-Projects\MaxGain\MaxGain.Infrastructure\obj\Debug\net6.0\MaxGain.Infrastructure.AssemblyInfo.cs
+C:\Users\HP\source\repos\Web-Projects\MaxGain\MaxGain.Infrastructure\obj\Debug\net6.0\MaxGain.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\Web-Projects\MaxGain\MaxGain.Infrastructure\obj\Debug\net6.0\MaxGain.Infrastructure.dll
+C:\Users\HP\source\repos\Web-Projects\MaxGain\MaxGain.Infrastructure\obj\Debug\net6.0\refint\MaxGain.Infrastructure.dll
+C:\Users\HP\source\repos\Web-Projects\MaxGain\MaxGain.Infrastructure\obj\Debug\net6.0\MaxGain.Infrastructure.pdb
+C:\Users\HP\source\repos\Web-Projects\MaxGain\MaxGain.Infrastructure\obj\Debug\net6.0\ref\MaxGain.Infrastructure.dll

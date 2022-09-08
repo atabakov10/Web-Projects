@@ -3647,6 +3647,29 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "MaxGain.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "MaxGain.Infrastructure": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MaxGain.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MaxGain.Core.dll": {}
+        }
+      },
+      "MaxGain.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/MaxGain.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MaxGain.Infrastructure.dll": {}
+        }
       }
     }
   },
@@ -10308,10 +10331,21 @@
         "system.xml.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "MaxGain.Core/1.0.0": {
+      "type": "project",
+      "path": "../MaxGain.Core/MaxGain.Core.csproj",
+      "msbuildProject": "../MaxGain.Core/MaxGain.Core.csproj"
+    },
+    "MaxGain.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../MaxGain.Infrastructure/MaxGain.Infrastructure.csproj",
+      "msbuildProject": "../MaxGain.Infrastructure/MaxGain.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "MaxGain.Core >= 1.0.0",
       "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 6.0.8",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 6.0.8",
       "Microsoft.AspNetCore.Identity.UI >= 6.0.8",
@@ -10346,7 +10380,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\HP\\source\\repos\\Web-Projects\\MaxGain\\MaxGain.Core\\MaxGain.Core.csproj": {
+              "projectPath": "C:\\Users\\HP\\source\\repos\\Web-Projects\\MaxGain\\MaxGain.Core\\MaxGain.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
