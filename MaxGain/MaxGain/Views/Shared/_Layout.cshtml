@@ -67,7 +67,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
         <!-- Main Sidebar Container -->
         <aside class="main-sidebar sidebar-dark-primary elevation-4">
             <!-- Brand Logo -->
-			<a href="index3.html" class="brand-link">
+			<a asp-controller="Home" class="brand-link">
 				<img src="~/img/305633971_615826093265472_314565376667836279_n.jpg" alt="MG Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
 				<span class="brand-text font-weight-light"><strong>MaxGain</strong></span>
             </a>
@@ -123,11 +123,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
         <!-- Main Footer -->
         <footer class="main-footer">
-            <!-- To the right -->
-            <div class="float-right d-none d-sm-inline">
-                Anything you want
-            </div>
-            <!-- Default to the left -->
+	        <!-- Default to the left -->
             <strong>Copyright &copy; 05.09.2022 - @DateTime.UtcNow.ToString("dd/MM/yyyy").</strong> All rights reserved.
         </footer>
     </div>
