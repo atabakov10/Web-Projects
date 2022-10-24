@@ -14,12 +14,12 @@ namespace ForumApp.Data.Models
         [Comment("Post title")]
         [Required]
         [MaxLength(TitleMaxLength)]
-        public string Title { get; set; } = null!;
+        public string Title { get; set; }
 
         [Comment("Content")]
         [Required]
         [MaxLength(ContextMaxLength)]
-        public string Content { get; set; } = null!; 
+        public string Content { get; set; }
 
     }
 }

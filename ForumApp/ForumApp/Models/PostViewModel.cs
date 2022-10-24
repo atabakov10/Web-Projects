@@ -5,7 +5,6 @@ namespace ForumApp.Models
 {
     public class PostViewModel
     {
-        [UIHint("hidden")]
         public int Id { get; set; }
 
         [Display(Name = "Заглавие")]
