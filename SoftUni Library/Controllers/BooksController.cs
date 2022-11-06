@@ -2,6 +2,7 @@
 using Library.Models.Movies;
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Library.Controllers
 {
@@ -15,6 +16,7 @@ namespace Library.Controllers
         }
 
         [HttpGet]
+        [Authorize]
         public async Task<IActionResult> All()
         {
             var model = await bookService.GetAllAsync();
